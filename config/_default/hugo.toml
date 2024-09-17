@@ -1,9 +1,9 @@
-title = "Hinode"
-copyright = "Copyright © 2024 Mark Dumay."
+title = "Hinod"
+copyright = "Copyright © 2024 Dvesti"
 enableGitInfo = true
 
 # additional settings
-baseURL = "/"
+baseURL = "https://hinod.netlify.app/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
@@ -39,7 +39,8 @@ home = ["HTML", "RSS", "REDIR"]
   
 [taxonomies]
   tag = 'tags'
-
+  category = 'categories'
+  
 [pagination]
   pagerSize = 9
 
