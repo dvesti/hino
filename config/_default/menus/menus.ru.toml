@@ -50,19 +50,19 @@
   
 [[social]]
   name = "Skype"
-  pre = "fab Skype"
+  pre = "fab skype"
   url = "vladimir_from_tallinn"
   weight = 30  
 
 [[social]]
   name = "Flickr"
-  pre = "fab fa-Flickr"
+  pre = "fab flickr"
   url = "https://www.flickr.com/photos/190444282@N04/"
   weight = 40
   
 [[social]]
   name = "Telegram"
-  pre = "fab Telegram"
+  pre = "fab telegram"
   url = "https://t.me/estonija"
   weight = 50  
   
@@ -74,13 +74,13 @@
   
 [[social]]
   name = "VK"
-  pre = "fab VK"
+  pre = "fab vk"
   url = "https://vk.com/dmitrijev"
   weight = 70  
   
 [[social]]
   name = "Wordpress"
-  pre = "fab Wordpress"
+  pre = "fab wordpress"
   url = "https://dvesti.wordpress.com/"
   weight = 80    
 
