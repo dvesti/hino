@@ -10,8 +10,6 @@ enableRobotsTXT = true
 enableInlineShortcodes = true
 summaryLength = 20
 
-
-
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
@@ -19,13 +17,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 timeout = "180s"
 
-# languageCode =  "ru-ru" #en-us"
-# defaultContentLanguage = "ru" #"en"
-# defaultContentLanguageInSubdir = true #false
-
-languageCode = "ru-ru" #"en-us"
-defaultContentLanguage = "ru" # "en"
-defaultContentLanguageInSubdir = false #true
+languageCode = "ru-ru" 
+defaultContentLanguage = "ru" 
+defaultContentLanguageInSubdir = false 
 
 disableLanguages = ["fr", "nl", "en"]
 

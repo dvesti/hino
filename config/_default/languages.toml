@@ -3,7 +3,7 @@
 [ru]
     languageName = "Русский"
     contentDir = "content"
-    #languageCode = 'ru'
+    languageCode = 'ru'
     weight = 1
 
 # toml-docs-end lang-main
