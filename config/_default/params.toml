@@ -83,6 +83,18 @@
     icon = "fas link"
     weight = 50
     clipboard = true
+    
+[[sharing.providers]]
+    name = "Telegram"
+    url = "https://t.me/share/url?url={url}&text={title}"
+    icon = "fab telegram"
+    weight = 60   
+    
+[[sharing.providers]]
+    name = "VK"
+    url = "https://vk.com/share.php?url={url}"
+    icon = "fab vk"
+    weight = 70    
 
 # toml-docs-start sections
 # [sections]
