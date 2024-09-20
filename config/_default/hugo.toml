@@ -10,17 +10,24 @@ enableRobotsTXT = true
 enableInlineShortcodes = true
 summaryLength = 20
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+
 
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 timeout = "180s"
 
-languageCode = "en-us"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+# languageCode =  "ru-ru" #en-us"
+# defaultContentLanguage = "ru" #"en"
+# defaultContentLanguageInSubdir = true #false
+
+languageCode = "ru-ru" #"en-us"
+defaultContentLanguage = "ru" # "en"
+defaultContentLanguageInSubdir = false #true
+
+disableLanguages = ["fr", "nl", "en"]
 
 [outputFormats.REDIR]
 mediaType = "text/netlify"
@@ -39,7 +46,6 @@ home = ["HTML", "RSS", "REDIR"]
   
 [taxonomies]
   tag = 'tags'
-  category = 'categories'
   
 [pagination]
   pagerSize = 9
@@ -120,3 +126,4 @@ home = ["HTML", "RSS", "REDIR"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+

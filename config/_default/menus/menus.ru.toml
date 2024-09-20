@@ -1,0 +1,109 @@
+[[main]]
+  name = "О нас"
+  pageRef = "/about/"
+  weight = 10
+
+[[main]]
+  name = "Блог"
+  pageRef = "/blog/"
+  weight = 20
+
+[[main]]
+  name = "Проекты"
+  pageRef = "/projects/"
+  weight = 30
+
+[[main]]
+  name = "Простой проект"
+  pageRef = "/projects/prostoi-project/"
+  parent = "Проекты"
+  weight = 1
+
+[[main]]
+  name = "Другой проект"
+  pageRef = "/projects/drugoi-project/"
+  parent = "Проекты"
+  weight = 2
+
+[[main]]
+  name = "Тэги"
+  pageRef = "/tags/"
+  weight = 40
+
+#[[social]]
+#  name = "Email"
+#  pre = "fab fa-github"
+#  url = "dvesti@hot.ee"
+#  weight = 10
+
+[[social]]
+  name = "GitHub"
+  pre = "fab fa-github"
+  url = "https://github.com/dvesti"
+  weight = 10
+
+[[social]]
+  name = "Facebook"
+  pre = "fab facebook"
+  url = "https://facebook.com/vladimir.dmitrijev.9"
+  weight = 20
+  
+[[social]]
+  name = "Skype"
+  pre = "fab Skype"
+  url = "vladimir_from_tallinn"
+  weight = 30  
+
+[[social]]
+  name = "Flickr"
+  pre = "fab fa-Flickr"
+  url = "https://www.flickr.com/photos/190444282@N04/"
+  weight = 40
+  
+[[social]]
+  name = "Telegram"
+  pre = "fab Telegram"
+  url = "https://t.me/estonija"
+  weight = 50  
+  
+[[social]]
+  name = "X"
+  pre = "fab x-twitter"
+  url = "https://x.com/Prorab"
+  weight = 60  
+  
+[[social]]
+  name = "VK"
+  pre = "fab VK"
+  url = "https://vk.com/dmitrijev"
+  weight = 70  
+  
+[[social]]
+  name = "Wordpress"
+  pre = "fab Wordpress"
+  url = "https://dvesti.wordpress.com/"
+  weight = 80    
+
+# toml-docs-start sample-navigation
+[[sample]]
+  name = "Блог"
+  pageRef = "/blog/"
+  weight = 20
+
+[[sample]]
+  name = "Проекты"
+  pageRef = "/projects/"
+  weight = 30
+
+[[sample]]
+  name = "Простой проект"
+  pageRef = "/projects/prostoi-project/"
+  parent = "Проекты"
+  weight = 1
+
+[[sample]]
+  name = "Другой проект"
+  pageRef = "/projects/drugoi-project/"
+  parent = "Проекты"
+  weight = 2
+# toml-docs-end sample-navigation
