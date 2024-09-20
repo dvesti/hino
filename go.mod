@@ -1,6 +1,6 @@
 module hinod.netlify.app
 
-go 1.21.0
+go 1.23
 
 require (
 	github.com/airbnb/lottie-web v5.12.2+incompatible // indirect
