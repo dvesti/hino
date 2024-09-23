@@ -19,9 +19,9 @@
     [ru.params.footer]
       # license = "Gelicenseerd onder Creative Commons (<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' class='link-secondary' target='_blank' rel='noopener noreferrer nofollow'>CC BY-NC-SA 4.0</a>)."[ru.params.sections.blog]
       #reference = "Больше записей"
-    #[ru.params.sections.projects]
-        # title = "Проекты"
-        # reference = "Больше Проектов"
+    [ru.params.sections.projects]
+        title = "Проекты"
+        reference = "Больше Проектов"
 # toml-docs-end lang-param
 
 #[en]
