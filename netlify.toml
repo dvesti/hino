@@ -4,7 +4,7 @@
 
 [build.environment]
     DART_SASS_VERSION = "1.77.5"
-    HUGO_VERSION = "0.134.2"
+    HUGO_VERSION = "0.135.0"
     HUGO_ENV = "production"
     HUGO_ENABLEGITINFO = "true"
     NODE_VERSION = "20.16.0"
