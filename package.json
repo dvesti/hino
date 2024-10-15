@@ -65,4 +65,17 @@
   "hugo-bin": {
     "buildTags": "extended"
   }
+  
+module.exports = {
+  'plugins': 'stylelint-scss',
+  'extends': 'stylelint-config-standard',
+  'rules': {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    // turn on all the other stylelint-scss rules you want
+    // https://github.com/kristerkari/stylelint-scss#list-of-rules
+  },
+  
+};  
+  
 }
