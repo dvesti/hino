@@ -13,4 +13,5 @@ RnwWeave: knitr
 LaTeX: pdfLaTeX
 
 BuildType: Website
+WebsitePath: E:/Sites/R/hino
 DisableExecuteRprofile: Yes
