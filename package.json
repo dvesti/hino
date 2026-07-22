@@ -39,7 +39,7 @@
   },
   "homepage": "https://gethinode.com",
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "@fullhuman/postcss-purgecss": "^8.0.0",
     "autoprefixer": "^10.4.20",
     "cssnano": "^8.0.2",
     "cssnano-preset-advanced": "^8.0.2",
