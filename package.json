@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@gethinode/netlify-plugin-dartsass": "^0.3.0",
-    "eslint": "^10.8.0",
+    "eslint": "^10.8.1",
     "neostandard": "^0.13.0",
 
     "markdownlint-cli2": "^0.23.2",
