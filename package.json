@@ -40,7 +40,7 @@
   "homepage": "https://gethinode.com",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.5.5",
 
 
 
